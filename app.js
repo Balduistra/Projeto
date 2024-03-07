@@ -4,6 +4,8 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 console.log(numeroSecreto);
 
+exibirTextoNaTela('h1', 'meu pau de oculos');
+
 
 function exibirTextoNaTela (tag, texto) {
     let campo = document.querySelector (tag);

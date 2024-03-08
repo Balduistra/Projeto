@@ -4,8 +4,9 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 console.log(numeroSecreto);
 
-
 exibirMensagemInicial();
+
+
 function exibirTextoNaTela (tag, texto) {
     let campo = document.querySelector (tag);
     campo.innerHTML = texto;
